@@ -24,8 +24,8 @@ class Abab extends MX_Controller  {
 	 */
 	public function index()
 	{
-		$this->load->model('Abab/Abab_model');
-		echo $this->Abab_model->hehe();
+		$this->load->model('abab/abab_model');
+		echo $this->abab_model->hehe();
 		$this->load->view('haha');
 	}
 }
